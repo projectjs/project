@@ -28,6 +28,11 @@ Project JS takes care of the following project lifecycle events:
   - Generate components using the best practices of the frameworks being used
   - Support any number of component types, made available by selecting the different frameworks in use by the project
 
+- **Running a Web Application project**
+  - Start serving the project resources, including auto-reload on changes
+  - Proxy support for paths not in the root of the server, such as API servers and assets
+  - Ensuring as much compatibility with the production environment as possible
+
 - **Testing a Web Application project**
   - Running unit tests
   - Watching code and running unit tests
