@@ -1,0 +1,24 @@
+{
+    "name": "project",
+    "version": "0.0.0",
+    "description": "Project management for JS Web Applications",
+    "main": "index.js",
+    "bin": {
+        "project": "bin/cli.js"
+    },
+    "scripts": {
+        "test": "jasmine"
+    },
+    "keywords": [
+        "project",
+        "projects",
+        "web-apps",
+        "manage",
+        "management"
+    ],
+    "author": "Schmulik Raskin <schmuli@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "jasmine": "^2.4.1"
+    }
+}
