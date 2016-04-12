@@ -1,3 +1,7 @@
 node_modules
 logs
 *.log
+
+# Generated
+lib/*.js
+spec/*.js
