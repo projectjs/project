@@ -4,5 +4,8 @@
     "dependencies": {},
     "ambientDevDependencies": {
         "jasmine": "registry:dt/jasmine#2.2.0+20160317120654"
+    },
+    "ambientDependencies": {
+        "node": "registry:env/node#4.0.0+20160410231109"
     }
 }

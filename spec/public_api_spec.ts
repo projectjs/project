@@ -1,9 +1,11 @@
 import publicApi from "../lib/project";
 
+var currentVersion = require('../package.json').version;
+
 describe("The project public API", () => {
 
     it('should have a version property', () => {
-        expect(publicApi.version).toBe('0.0.0');
+        expect(publicApi.version).toBe(currentVersion);
     });
 
     it('should have a new command');
